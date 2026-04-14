@@ -5,7 +5,7 @@ import my_pymannkendall     as  mk # pymannkendall modified by bbarceló to show
 from scipy.stats import chi2, t, f
 
 '''
-All Functions to perform statistical analysis
+All Functions to perform statistical analysis and detect MHWs
 
 Adapted from R. Escudier (2018), B. Barceló-Llull (2018; 2024) and P. Rosselló (2023)
 
@@ -520,7 +520,7 @@ def compute_thresholds(
     return ds_thres
 
 #################################################################
-## New climatology functions (Blanca Fernández-Álvarez - 2025)
+## New climatology functions, WRONG DO NOT USE
 
 def run_avg(da, w=11, dim="dayofyear", stat="mean", p=90):
     """
